@@ -7,11 +7,28 @@
       #menu li {
         display: inline;
       }
+      
       #header h1 {
         display: inline;
       }
+
+      #container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+      }
+
       #content {
-        width: 910px;
+      display: flex;
+      }
+
+      .map-container {
+      margin-right: 20px; /* Adjust the margin as per your preference */
+      }
+
+      .table-container {
+      margin-top: 50px; /* Adjust the top margin as per your preference */
       }
     </style>
   </head>
@@ -39,9 +56,73 @@
         </div>
       <hr>
       </nav>
-      <div id="content">
+      <div id="container">
+        <div id="content">
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d621266.378434449!2d4.937683646992298!3d52.536658430680816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7d32248f3edf3%3A0x7ec6a43dbc089223!2sLa%20Grande%20Roue!5e0!3m2!1snl!2snl!4v1696451549107!5m2!1snl!2snl" 
+              width="300" 
+              height="300" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <div class="table-container">
+            <table>
+                <tr>
+                    <td>Ma</td>
+                    <td>09:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                    <td>Di</td>
+                    <td>09:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                    <td>Wo</td>
+                    <td>09:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                    <td>Do</td>
+                    <td>09:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                    <td>Vr</td>
+                    <td>09:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                    <td>Za</td>
+                    <td>12:00 - 20:00</td>
+                  </tr>
+                  <tr>
+                    <td>Zo</td>
+                    <td>Gesloten</td>
+                  </tr>
+            </table>
+          </div>
+        </div>
       </div>
-      <div id="videos">
+      <br>
+      <div>
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/AX3BcZmJmjk?si=oyPnnnPnNxhp6Bli" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/8vgzvChG1eI?si=RJlPT6Q4E72Yiym0" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
       </div>
       <footer>
       </footer>
