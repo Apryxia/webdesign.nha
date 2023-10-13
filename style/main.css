@@ -1,28 +1,32 @@
 header {
   background: black;
-  width: 100vh;
-  height: 50px;
+  width: 100vw;
+  height: 5vh;
 }
 
 body {
   text-align: center;
   color: white;
 }
+
 .container {
   background: grey;
-  width: 100vh;
-}
-footer {
-  background: purple;
-  width: 100vh;
-  height: 50px;
+  width: 100vw;
+  height: 100vh;
 }
 
-table {
-  width: 40rem;
-  margin-top: 15px;
-  margin-left: 45px;
+footer {
+  background: purple;
+  width: 100vw;
+  height: 5vh;
+  margin-top: -16px;
 }
+
+table td {
+  width: 100px;
+  height: 100px;
+}
+
 table #cel1 {
   background: rgb(255, 0, 13);
 }
