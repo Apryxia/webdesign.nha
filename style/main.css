@@ -1,0 +1,56 @@
+header {
+  background: black;
+  width: 100vh;
+  height: 50px;
+}
+
+body {
+  text-align: center;
+  color: white;
+}
+.container {
+  background: grey;
+  width: 100vh;
+}
+footer {
+  background: purple;
+  width: 100vh;
+  height: 50px;
+}
+
+table {
+  width: 40rem;
+  margin-top: 15px;
+  margin-left: 45px;
+}
+table #cel1 {
+  background: rgb(255, 0, 13);
+}
+
+table #cel3 {
+  background: rgb(46, 54, 165);
+}
+
+table #cel5 {
+  background: rgb(5, 231, 54);
+}
+
+table #cel7 {
+  background: rgb(233, 171, 3);
+}
+
+table #cel9 {
+  background: rgb(228, 8, 228);
+}
+
+table #cel11 {
+  background: rgb(1, 95, 236);
+}
+
+table #cel13 {
+  background: rgb(2, 58, 25);
+}
+
+table #cel15 {
+  background: rgb(77, 3, 70);
+}
