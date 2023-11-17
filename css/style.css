@@ -44,8 +44,15 @@ li:hover {
   width: 1000px;
   height: 100vh;
   margin: auto;
-  width: 50%;
+  width: 40%;
   padding: 10px;
+}
+
+.container #foto {
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin: 10px;
 }
 
 form fieldset {
@@ -69,4 +76,33 @@ button {
 textarea {
   height: 200px;
   padding: 5px 4px;
+}
+
+button:active {
+  background-color: #075252;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #075252;
+  height: 30px;
+  color: white;
+  text-align: center;
 }
